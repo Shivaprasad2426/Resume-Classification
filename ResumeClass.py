@@ -19,8 +19,8 @@ vectorizer = joblib.load("vector.pkl")
 nlp = spacy.load("en_core_web_sm")
 
 # App Title
-st.set_page_config(page_title="Resume Classification Dashboard", layout="wide")
-st.title("📄 Resume Classification Dashboard")
+st.set_page_config(page_title="Clear For Hire (AI Based-Resume Classifier)", layout="wide")
+st.title("📄Clear For Hire")
 
 # Sidebar Header
 st.sidebar.header("Navigation")
